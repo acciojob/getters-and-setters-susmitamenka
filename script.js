@@ -7,13 +7,13 @@ class Person {
 	getName(){
 		return this.name
 	}
-	setname(){
+	setname(name){
 		this.name = name
 	}
 	getage(){
 		return this.age
 	}
-	setage(){
+	setage(age){
 		this.age = age
 	}
 }
@@ -21,14 +21,14 @@ class Person {
 class Student extends Person {
 
 	study(){
-		console.log(`${this.name}is studying`)
+		console.log(`${this.name} is studying`)
 	}
 }
 
 class Teacher extends Person {
 
 	teach(){
-		console.log(`${this.name}is teaching`)
+		console.log(`${this.name} is teaching`)
 	}
 }
 
